@@ -7,7 +7,7 @@ $$1(1!) + 2(2!) + · · · + n(n!) = (n + 1)! − 1$$
 * Basis Step (n = 1)
 $$
 \begin{align}
-  1(1!) = 1 * 1 = 1\\
+ 1(1!) = 1 * 1 = 1\\
 \begin{split}
   (1 + 1)! - 1 &= 2!-1\\
   &=2*1-1\\
@@ -153,25 +153,25 @@ We conclude that $A=B$
 ### SOLUTION
 (a)
 $$
-\begin{split}
+\begin{aligned}
 &X \times Y\\
 &=\{1, 2\} \times \{a, b, c\}\\
 &=\{\{1, a\}, \{1, b\}, \{1, c\}, \{2, a\}, \{2, b\}, \{2, c\}\}
-\end{split}
+\end{aligned}
 $$
 
 (b)
 $$
-\begin{split}
+\begin{aligned}
 &Y \times X\\
 &=\{a, b, c\} \times \{1, 2\}\\
 &=\{\{a, 1\}, \{a, 2\}, \{b, 1\}, \{b, 2\}, \{c, 1\}, \{c, 2\}\}
-\end{split}
+\end{aligned}
 $$
 
 (c)
 $$
-\begin{split}
+\begin{aligned}
 &X \times X \times X\\
 &=\{1, 2\} \times \{1, 2\} \times \{1, 2\}\\
 &=\{\{1,1\}, \{1,2\}, \{2,1\}, \{2,2\}\} \times \{1,2\}\\
@@ -181,5 +181,5 @@ $$
 &\qquad\{\{2,1\},1\},\quad\{\{2,1\},2\},\\
 &\qquad\{\{2,2\},1\},\quad\{\{2,2\},2\}\\
 &\quad\}
-\end{split}
+\end{aligned}
 $$
