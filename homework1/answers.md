@@ -5,30 +5,35 @@ $$1(1!) + 2(2!) + · · · + n(n!) = (n + 1)! − 1$$
 
 ### **SOLUTION**
 * Basis Step (n = 1)
+
+$$1(1!) = 1 * 1 = 1 \tag{1}$$
+
 $$
-\begin{align}
- 1(1!) = 1 * 1 = 1\\
-\begin{split}
+\begin{aligned}
   (1 + 1)! - 1 &= 2!-1\\
   &=2*1-1\\
-  &=1
-\end{split}
-\end{align}
+  &=1 
+\end{aligned}
+\tag{2}
 $$
-$(1) = (2)$
+
+$$(1) = (2)$$
 * Inductive Step  
-Assume *the equation is true for n*  
+Assume *the equation is true for n*
+
 $$
 1(1!)+2(2!)+...+n(n!) = (n+1)!-1
 $$
 
 * Now
+
 $$
 \begin{split}
-\color{red}1(1!)+2(2!)+...+n(n!) + \color{blue}(n+1)((n+1)!)&=\color{red}(n+1)!-1 + \color{blue}(n+1)((n+1)!)\\
+&\color{red}1(1!)+2(2!)+...+n(n!) + \color{blue}(n+1)((n+1)!)\\
+&=\color{red}(n+1)!-1 + \color{blue}(n+1)((n+1)!)\\
 &=((n+1)!)(n+2)-1\\
 &=(n+2)!-1\\
-&=(\bold{(n+1)}+1)!-\bold{1}\\
+&=((n+1)+1)!-1\\
 \end{split}
 $$
 
@@ -50,9 +55,11 @@ Assume *the inequation is true for n*
 $$2n + 1 \le 2^n$$
 
 * Now  
+
 $$
 \begin{split}
-  2(n+1)+1 &= 2n+2+1\\
+  &2(n+1)+1 \\
+  &= 2n+2+1\\
   &=2n+1+2\\
   &\le 2^n+2\\
   &\lt 2^n + 2^n  \ (\forall n\ge3)\\
@@ -78,9 +85,11 @@ Assume $11^n - 6$ is divisible by 5 for n, i.e.
 $$(11^n - 6) \bmod 5 = 0$$
 
 * Now
+
 $$
 \begin{split}
-11^(n+1) - 6 &= 11^n \times 11 - 6\\
+&11^{n+1} - 6\\
+&= 11^n \times 11 - 6\\
 &=(10 + 1) \times 11^n -6\\
 &=10 \times 11^n + (11^n - 6)\\
 \end{split}
@@ -98,7 +107,7 @@ $$(11^n - 6) \bmod 5 = 0$$
 
 ## **Set**
 
-### 4. Let the universe be the set $U = \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Let $A = \{1, 4, 7, 10\}, B = \{1, 2, 3, 4, 5\} and C = \{2, 4, 6, 8\}$. List the elements of each set.
+### 4. Let the universe be the set $U = \lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 \rbrace $. Let $A = \lbrace 1, 4, 7, 10 \rbrace , B = \lbrace 1, 2, 3, 4, 5 \rbrace \ and \ C = \lbrace 2, 4, 6, 8 \rbrace $. List the elements of each set.
 (a) $B \cap C$
 
 (b) $\bar{A}-B$
@@ -106,31 +115,32 @@ $$(11^n - 6) \bmod 5 = 0$$
 (c) $A \cup B − (C − B)$
 
 ### SOLUTION
-(a) 
-$$B \cap C = \{1, 2, 3, 4, 5\} \cap \{2, 4, 5, 8\} = \{2, 4\}\\$$
+(a) $$B \cap C = \lbrace 1, 2, 3, 4, 5 \rbrace  \cap \lbrace 2, 4, 5, 8 \rbrace  = \lbrace 2, 4 \rbrace $$
 
 (b) 
+
 $$
 \begin{split}
 &\bar{A}-B = (U - A) - B \\
-&= \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\} - \{1, 4, 7, 10\} - \{1, 2, 3, 4, 5\} \\
-&= \{6, 8, 9\}\\
+&= \lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 \rbrace  - \lbrace 1, 4, 7, 10 \rbrace  - \lbrace 1, 2, 3, 4, 5 \rbrace  \\
+&= \lbrace 6, 8, 9 \rbrace \\
 \end{split}
 $$
 
 (c) 
+
 $$
 \begin{split}
 &A \cup B − (C − B) \\
-&= \{1, 4, 7, 10\} \cap \{1, 2, 3, 4\} - (\{2, 4, 6, 8\} - \{1, 2, 3, 4\}) \\
-&= \{1, 2, 3, 4, 6, 8\} - \{6, 8\}\\
-&= \{1, 2, 3, 4\}\\
+&= \lbrace 1, 4, 7, 10 \rbrace  \cap \lbrace 1, 2, 3, 4 \rbrace  - (\lbrace 2, 4, 6, 8 \rbrace  - \lbrace 1, 2, 3, 4 \rbrace ) \\
+&= \lbrace 1, 2, 3, 4, 6, 8 \rbrace  - \lbrace 6, 8 \rbrace \\
+&= \lbrace 1, 2, 3, 4 \rbrace \\
 \end{split}
 $$
 
 ---
 
-### 5. Let $A = \{x|x^2-4x+4=1\}$ and $B=\{1, 3\}$. Prove that $A = B$.
+### 5. Let $A = \lbrace x|x^2-4x+4=1 \rbrace $ and $B=\lbrace 1, 3 \rbrace $. Prove that $A = B$.
 ### SOLUTION
 1. prove $\forall{x| x \in A},\ x \in B\\$
 Solving the equation $x^2 -4x + 4 = 1$, we find that $x=1\ or\ x=3\\$
@@ -145,41 +155,44 @@ We conclude that $A=B$
 
 ---
 
-### 6. Let $X=\{1, 2\}$ and $Y=\{a, b, c\}$. List the elements in each set.
+### 6. Let $X=\lbrace 1, 2 \rbrace $ and $Y=\lbrace a, b, c \rbrace $. List the elements in each set.
 (a) $X \times Y\\$
 (b) $Y \times X\\$
 (c) $X \times X \times X\\$
 
 ### SOLUTION
 (a)
+
 $$
 \begin{aligned}
 &X \times Y\\
-&=\{1, 2\} \times \{a, b, c\}\\
-&=\{\{1, a\}, \{1, b\}, \{1, c\}, \{2, a\}, \{2, b\}, \{2, c\}\}
+&=\lbrace 1, 2 \rbrace  \times \lbrace a, b, c \rbrace \\
+&=\lbrace \lbrace 1, a \rbrace , \lbrace 1, b \rbrace , \lbrace 1, c \rbrace , \lbrace 2, a \rbrace , \lbrace 2, b \rbrace , \lbrace 2, c \rbrace  \rbrace 
 \end{aligned}
 $$
 
 (b)
+
 $$
 \begin{aligned}
 &Y \times X\\
-&=\{a, b, c\} \times \{1, 2\}\\
-&=\{\{a, 1\}, \{a, 2\}, \{b, 1\}, \{b, 2\}, \{c, 1\}, \{c, 2\}\}
+&=\lbrace a, b, c \rbrace  \times \lbrace 1, 2 \rbrace \\
+&=\lbrace \lbrace a, 1 \rbrace , \lbrace a, 2 \rbrace , \lbrace b, 1 \rbrace , \lbrace b, 2 \rbrace , \lbrace c, 1 \rbrace , \lbrace c, 2 \rbrace  \rbrace 
 \end{aligned}
 $$
 
 (c)
+
 $$
 \begin{aligned}
 &X \times X \times X\\
-&=\{1, 2\} \times \{1, 2\} \times \{1, 2\}\\
-&=\{\{1,1\}, \{1,2\}, \{2,1\}, \{2,2\}\} \times \{1,2\}\\
-&=\{\\
-&\qquad\{\{1,1\},1\},\quad\{\{1,1\},2\},\\
-&\qquad\{\{1,2\},1\},\quad\{\{1,2\},2\},\\
-&\qquad\{\{2,1\},1\},\quad\{\{2,1\},2\},\\
-&\qquad\{\{2,2\},1\},\quad\{\{2,2\},2\}\\
-&\quad\}
+&=\lbrace 1, 2 \rbrace  \times \lbrace 1, 2 \rbrace  \times \lbrace 1, 2 \rbrace \\
+&=\lbrace \lbrace 1,1 \rbrace , \lbrace 1,2 \rbrace , \lbrace 2,1 \rbrace , \lbrace 2,2 \rbrace  \rbrace  \times \lbrace 1,2 \rbrace \\
+&=\lbrace \\
+&\qquad\lbrace \lbrace 1,1 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 1,1 \rbrace ,2 \rbrace ,\\
+&\qquad\lbrace \lbrace 1,2 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 1,2 \rbrace ,2 \rbrace ,\\
+&\qquad\lbrace \lbrace 2,1 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 2,1 \rbrace ,2 \rbrace ,\\
+&\qquad\lbrace \lbrace 2,2 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 2,2 \rbrace ,2 \rbrace \\
+&\quad \rbrace 
 \end{aligned}
 $$
