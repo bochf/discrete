@@ -196,3 +196,18 @@ $$
 &\quad \rbrace 
 \end{aligned}
 $$
+
+---
+
+### 7. Suppose there is a group of 191 students, of which 10 are taking French, business, and music; 36 are taking French and business; 20 are taking French and music; 18 are taking business and music; 65 are taking French; 76 are taking business; and 63 are taking music.
+(a) How many are taking none of the three subjects?  
+(b) Draw a Venn Diagram to illustrate the universal set U of students, set F those students taking
+French, set B for those students taking business, and set M for those students taking music.
+Write the number of students belonging each region depicted in the diagram.
+
+### SOLUTION
+(a) Let 
+- A = all the students taking French
+- B = all the students taking business
+- C = all the students taking music
+- U = all the students
