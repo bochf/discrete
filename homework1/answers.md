@@ -140,7 +140,7 @@ $$
 
 ---
 
-### 5. Let $A = \lbrace x|x^2-4x+4=1 \rbrace $ and $B=\lbrace 1, 3 \rbrace $. Prove that $A = B$.
+### 5. Let $A = \lbrace x|x^2-4x+4=1 \rbrace$ and $B=\lbrace 1, 3 \rbrace$. Prove that $A = B$.
 ### SOLUTION
 1. prove $\forall{x| x \in A},\ x \in B$
 
@@ -158,10 +158,12 @@ We conclude that $A=B$
 
 ---
 
-### 6. Let $X=\lbrace 1, 2 \rbrace $ and $Y=\lbrace a, b, c \rbrace $. List the elements in each set.
-(a) $X \times Y\\$
-(b) $Y \times X\\$
-(c) $X \times X \times X\\$
+### 6. Let $X=\lbrace 1, 2 \rbrace$ and $Y=\lbrace a, b, c \rbrace$. List the elements in each set.
+(a) $X \times Y$
+
+(b) $Y \times X$
+
+(c) $X \times X \times X$
 
 ### SOLUTION
 (a)
@@ -214,8 +216,10 @@ Write the number of students belonging each region depicted in the diagram.
 - F = all the students taking French
 - B = all the students taking business
 - M = all the students taking music
+
 $$
-\begin{split}\tag{Given}
+\tag{Given}
+\begin{aligned}
 &|U| = 191\\
 &|F| = 65\\
 &|B| = 76\\
@@ -224,16 +228,19 @@ $$
 &|F \cap B| = 36\\
 &|F \cap M| = 20\\
 &|B \cap M| = 18
-\end{split}
+\end{aligned}
 $$
-Therefor
+
+Therefore
+
 $$
-\begin{split}\tag{Inclusion-Exclusion Principle}
+\tag{Inclusion-Exclusion Principle}
+\begin{aligned}
 &\quad|\bar{F} \cap \bar{B} \cap \bar{M}|\\
 &= |U| - (|F| + |B| + |M|) + (|F \cap B| + |F \cap M| + |B \cap M|) - |F \cap B \cap M|\\
 &= 191 - (65 + 76 + 63) + (36 + 20 + 18) - 10\\
 &= 51
-\end{split}
+\end{aligned}
 $$
 
 (b)
@@ -244,7 +251,7 @@ $$
 
 ### 8. Determine whether
 $$f=\lbrace (1, c), (2, a), (3, b), (4, c), (2, d) \rbrace$$
-is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, c \rbrace$. If it is a function,
+is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, d \rbrace$. If it is a function,
 (a) find its domain and range
 (b) draw its arrow diagram
 (c) determine if it is one-to-one, onto, or both. If it is both, give the description of the inverse function as a set of ordered pairs, draw its arrow diagram, and give the domain and range of the inverse function.
