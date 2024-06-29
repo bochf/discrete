@@ -142,14 +142,17 @@ $$
 
 ### 5. Let $A = \lbrace x|x^2-4x+4=1 \rbrace $ and $B=\lbrace 1, 3 \rbrace $. Prove that $A = B$.
 ### SOLUTION
-1. prove $\forall{x| x \in A},\ x \in B\\$
-Solving the equation $x^2 -4x + 4 = 1$, we find that $x=1\ or\ x=3\\$
-Therefore $\forall{x| x \in A},\ x \in B$
-2. prove $\forall{x| x \in B},\ x \in A\\$
-   if x = 1, 
-   $1^2-4 \times 1 + 4 = 1-4+4=1$, therefore $x \in A\\$
-   if x = 3,
-   $3^2-4 \times 3 + 4 = 9-4 \times 3 + 4=1$, again $x \in A\\$
+1. prove $\forall{x| x \in A},\ x \in B$
+
+  Solving the equation $x^2 -4x + 4 = 1$, we find that $x=1\ or\ x=3$  
+  Therefore $\forall{x| x \in A},\ x \in B$
+
+2. prove $\forall{x| x \in B},\ x \in A$
+
+   if x = 1,  
+   $1^2-4 \times 1 + 4 = 1-4+4=1$, therefore $x \in A$  
+   if x = 3,  
+   $3^2-4 \times 3 + 4 = 9-4 \times 3 + 4=1$, again $x \in A$
 
 We conclude that $A=B$
 
@@ -207,7 +210,30 @@ Write the number of students belonging each region depicted in the diagram.
 
 ### SOLUTION
 (a) Let 
-- A = all the students taking French
-- B = all the students taking business
-- C = all the students taking music
 - U = all the students
+- F = all the students taking French
+- B = all the students taking business
+- M = all the students taking music
+$$
+\begin{split}\tag{Given}
+&|U| = 191\\
+&|F| = 65\\
+&|B| = 76\\
+&|M| = 63\\
+&|F \cap B \cap M| = 10\\
+&|F \cap B| = 36\\
+&|F \cap M| = 20\\
+&|B \cap M| = 18
+\end{split}
+$$
+Therefor
+$$
+\begin{split}\tag{Inclusion-Exclusion Principle}
+&\quad|\bar{F} \cap \bar{B} \cap \bar{M}|\\
+&= |U| - (|F| + |B| + |M|) + (|F \cap B| + |F \cap M| + |B \cap M|) - |F \cap B \cap M|\\
+&= 191 - (65 + 76 + 63) + (36 + 20 + 18) - 10\\
+&= 51
+\end{split}
+$$
+
+(b)
