@@ -107,7 +107,7 @@ $$(11^n - 6) \bmod 5 = 0$$
 
 ## **Set**
 
-### 4. Let the universe be the set $U = \lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 \rbrace $. Let $A = \lbrace 1, 4, 7, 10 \rbrace , B = \lbrace 1, 2, 3, 4, 5 \rbrace \ and \ C = \lbrace 2, 4, 6, 8 \rbrace $. List the elements of each set.
+### 4. Let the universe be the set $U = \lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 \rbrace $. Let $A = \lbrace 1, 4, 7, 10), B = \lbrace 1, 2, 3, 4, 5 \rbrace \ and \ C = \lbrace 2, 4, 6, 8 \rbrace $. List the elements of each set.
 (a) $B \cap C$
 
 (b) $\bar{A}-B$
@@ -170,7 +170,7 @@ $$
 \begin{aligned}
 &X \times Y\\
 &=\lbrace 1, 2 \rbrace  \times \lbrace a, b, c \rbrace \\
-&=\lbrace \lbrace 1, a \rbrace , \lbrace 1, b \rbrace , \lbrace 1, c \rbrace , \lbrace 2, a \rbrace , \lbrace 2, b \rbrace , \lbrace 2, c \rbrace  \rbrace 
+&=\lbrace (1, a), (1, b), (1, c), (2, a), (2, b), (2, c)  \rbrace 
 \end{aligned}
 $$
 
@@ -180,7 +180,7 @@ $$
 \begin{aligned}
 &Y \times X\\
 &=\lbrace a, b, c \rbrace  \times \lbrace 1, 2 \rbrace \\
-&=\lbrace \lbrace a, 1 \rbrace , \lbrace a, 2 \rbrace , \lbrace b, 1 \rbrace , \lbrace b, 2 \rbrace , \lbrace c, 1 \rbrace , \lbrace c, 2 \rbrace  \rbrace 
+&=\lbrace (a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)  \rbrace 
 \end{aligned}
 $$
 
@@ -190,12 +190,12 @@ $$
 \begin{aligned}
 &X \times X \times X\\
 &=\lbrace 1, 2 \rbrace  \times \lbrace 1, 2 \rbrace  \times \lbrace 1, 2 \rbrace \\
-&=\lbrace \lbrace 1,1 \rbrace , \lbrace 1,2 \rbrace , \lbrace 2,1 \rbrace , \lbrace 2,2 \rbrace  \rbrace  \times \lbrace 1,2 \rbrace \\
+&=\lbrace (1,1), (1,2), (2,1), (2,2)  \rbrace  \times \lbrace 1,2 \rbrace \\
 &=\lbrace \\
-&\qquad\lbrace \lbrace 1,1 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 1,1 \rbrace ,2 \rbrace ,\\
-&\qquad\lbrace \lbrace 1,2 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 1,2 \rbrace ,2 \rbrace ,\\
-&\qquad\lbrace \lbrace 2,1 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 2,1 \rbrace ,2 \rbrace ,\\
-&\qquad\lbrace \lbrace 2,2 \rbrace ,1 \rbrace ,\quad\lbrace \lbrace 2,2 \rbrace ,2 \rbrace \\
+&\qquad((1,1), 1), ((1,1), 2), \\
+&\qquad((1,2), 1), ((1,2), 2), \\
+&\qquad((2,1), 1), ((2,1), 2), \\
+&\qquad((2,2), 1), ((2,2), 2) \\
 &\quad \rbrace 
 \end{aligned}
 $$
@@ -237,3 +237,14 @@ $$
 $$
 
 (b)
+![img](q7b.png)
+
+---
+## **Functions**
+
+### 8. Determine whether
+$$f=\lbrace (1, c), (2, a), (3, b), (4, c), (2, d) \rbrace$$
+is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, c \rbrace$. If it is a function,
+(a) find its domain and range
+(b) draw its arrow diagram
+(c) determine if it is one-to-one, onto, or both. If it is both, give the description of the inverse function as a set of ordered pairs, draw its arrow diagram, and give the domain and range of the inverse function.
