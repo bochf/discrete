@@ -378,3 +378,32 @@ flowchart LR
   z1((w))
   end
 ```
+
+---
+## Sequences and Strings
+
+### 11. Let t be the sequence defined by
+
+$$t_n=2n-1, \qquad n \ge 1$$
+
+(a) Find $\Sigma^{3}_{i=1}t_i$.  
+(b) Find $\Sigma^{7}_{i=3}t_i$.  
+(c) Find $\prod^{3}_{i=1}t_i$.  
+(d) Find $\prod^{7}_{i=3}t_i$.  
+(e) Find a formula that represents this sequence as a sequence whose lower index is 0.  
+(f) Is $t$ decreasing?  
+(g) Is $t$ increasing?  
+(h) Is $t$ nondecreasing?  
+(i) Is $t$ nonincreasing?  
+
+### SOLUTION
+
+(a) $\Sigma^{3}_{i=1}t_i=t_1+t_2+t_3=1+3+5=9$  
+(b) $\Sigma^{7}_{i=3}t_i=t_3+t_4+t_5+t_6+t_7=5+7+9+11+13=45$  
+(c) $\prod^{3}_{i=1}t_i=t_1 \times t_2 \times t_3=1 \times 3 \times 5=15$  
+(d) $\prod^{7}_{i=3}t_i=t_3 \times t_4 \times t_5 \times t_6 \times t_7=5 \times 7 \times 9 \times 11 \times 13=45045$  
+(e) $t_n = 2n+1, \qquad n \ge 0$  
+(f) $t$ is not decreasing because $t2>t1$  
+(g) $t$ is increasing because $\forall{n_1, n_2 | n_2 \gt n_1 \ge 1}, t_{n_2} > t_{n_1}$  
+(h) $t$ is nondecreasing because $t$ is increasing  
+(i) $t$ is not nonincreasing because $t$ is increasing
