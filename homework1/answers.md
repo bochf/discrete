@@ -289,7 +289,6 @@ $$
 
 (b)
 ```mermaid
-
 flowchart LR
   x1-->y3
   x2-->y4
@@ -307,5 +306,28 @@ flowchart LR
   y3((c))
   y4((d))
   end
+```
 
+(c)  
+The function $f$ is one-to-one because $\forall{y \in Y}$ there is *exactly* one $x \in X$ such that $f(x)=y$.  
+The function $f$ is also onto because $\forall{y \in Y}\  \exist x \in X$ such that $f(x)=y$.  
+The inverse function $f^{-1}=\lbrace (a, 3), (b, 4), (c, 1), (d, 2) \rbrace$, the domain is $Y=\lbrace a, b, c, d \rbrace$, the range is $X=\lbrace 1, 2, 3, 4 \rbrace$.
+```mermaid
+flowchart LR
+  y1-->x3
+  y2-->x4
+  y3-->x1
+  y4-->x2
+  subgraph X
+  x1((1))
+  x2((2))
+  x3((3))
+  x4((4))
+  end
+  subgraph Y
+  y1((a))
+  y2((b))
+  y3((c))
+  y4((d))
+  end
 ```
