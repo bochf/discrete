@@ -250,8 +250,60 @@ $$
 ## **Functions**
 
 ### 8. Determine whether
+
 $$f=\lbrace (1, c), (2, a), (3, b), (4, c), (2, d) \rbrace$$
+
 is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, d \rbrace$. If it is a function,
 (a) find its domain and range
 (b) draw its arrow diagram
 (c) determine if it is one-to-one, onto, or both. If it is both, give the description of the inverse function as a set of ordered pairs, draw its arrow diagram, and give the domain and range of the inverse function.
+
+### SOLUTION
+
+$f=\lbrace (1, c), (2, a), (3, b), (4, c), (2, d) \rbrace$ is not a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, d \rbrace$, because the element 2 in X is not assigned a *unique* element in Y (2 is assigned the values a and d)
+
+---
+
+### 9. Determine whether
+
+$$f=\lbrace (1, c), (2, d), (3, a), (4, b) \rbrace$$
+
+is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, d \rbrace$. If it is a function,
+(a) find its domain and range
+(b) draw its arrow diagram
+(c) determine if it is one-to-one, onto, or both. If it is both, give the description of the inverse function as a set of ordered pairs, draw its arrow diagram, and give the domain and range of the inverse function.
+
+### SOLUTION
+$f=\lbrace (1, c), (2, d), (3, a), (4, b) \rbrace$ is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, d \rbrace$. Each element in X is assigned a unique value in Y. 
+
+$$
+f(1)=c \\
+f(2)=d \\
+f(3)=a \\
+f(4)=b
+$$
+
+(a) The domain of the function $f$ is $\lbrace 1, 2, 3, 4 \rbrace$, the range of the function $f$ is $\lbrace a, b, c, d \rbrace$
+
+(b)
+```mermaid
+
+flowchart LR
+  x1-->y3
+  x2-->y4
+  x3-->y1
+  x4-->y2
+  subgraph X
+  x1((1))
+  x2((2))
+  x3((3))
+  x4((4))
+  end
+  subgraph Y
+  y1((a))
+  y2((b))
+  y3((c))
+  y4((d))
+  end
+
+```
