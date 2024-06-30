@@ -96,12 +96,11 @@ $$
 $$
 $$
 \because
-10 \times 11^n \bmod 5 = 0 \And 11^n-6 \bmod 5 = 0
+10 \times 11^n \bmod 5 = 0 \And 11^n-6 \bmod 5 = 0\\
 \therefore 11^(n+1)-6 \bmod 5 = 0
 $$
 
-Since the Basis Step and the Inductive Step have been verified, the Principle of Mathematical Induction tells us that 
-$$(11^n - 6) \bmod 5 = 0$$
+Since the Basis Step and the Inductive Step have been verified, the Principle of Mathematical Induction tells us that $(11^n - 6) \bmod 5 = 0$
 
 ---
 
@@ -115,7 +114,7 @@ $$(11^n - 6) \bmod 5 = 0$$
 (c) $A \cup B − (C − B)$
 
 ### SOLUTION
-(a) $$B \cap C = \lbrace 1, 2, 3, 4, 5 \rbrace  \cap \lbrace 2, 4, 5, 8 \rbrace  = \lbrace 2, 4 \rbrace $$
+(a) $B \cap C = \lbrace 1, 2, 3, 4, 5 \rbrace  \cap \lbrace 2, 4, 5, 8 \rbrace  = \lbrace 2, 4 \rbrace$
 
 (b) 
 
