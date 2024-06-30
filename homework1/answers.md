@@ -277,10 +277,12 @@ is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, d \rbra
 $f=\lbrace (1, c), (2, d), (3, a), (4, b) \rbrace$ is a function from $X=\lbrace 1, 2, 3, 4 \rbrace$ to $Y=\lbrace a, b, c, d \rbrace$. Each element in X is assigned a unique value in Y. 
 
 $$
+\begin{aligned}
 f(1)=c \\
 f(2)=d \\
 f(3)=a \\
 f(4)=b
+\end{aligned}
 $$
 
 (a) The domain of the function $f$ is $\lbrace 1, 2, 3, 4 \rbrace$, the range of the function $f$ is $\lbrace a, b, c, d \rbrace$
