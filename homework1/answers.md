@@ -310,7 +310,7 @@ flowchart LR
 
 (c)  
 The function $f$ is one-to-one because $\forall{y \in Y}$ there is *exactly* one $x \in X$ such that $f(x)=y$.  
-The function $f$ is also onto because $\forall{y \in Y}\  \exist x \in X$ such that $f(x)=y$.  
+The function $f$ is also onto because $\forall{y \in Y}\  \exists x \in X$ such that $f(x)=y$.  
 The inverse function $f^{-1}=\lbrace (a, 3), (b, 4), (c, 1), (d, 2) \rbrace$, the domain is $Y=\lbrace a, b, c, d \rbrace$, the range is $X=\lbrace 1, 2, 3, 4 \rbrace$.
 ```mermaid
 flowchart LR
@@ -329,5 +329,52 @@ flowchart LR
   y2((b))
   y3((c))
   y4((d))
+  end
+```
+
+---
+
+### 10. Given
+
+$$g=\lbrace (1, b), (2, c), (3, a) \rbrace$$
+
+a function from $X= \lbrace 1, 2, 3 \rbrace$ to $Y= \lbrace a, b, c, d \rbrace$ and 
+
+$$f= \lbrace (a, x), (b, x), (c, z), (d, w) \rbrace$$
+
+a function from $Y$ to $Z$ = $\lbrace w, x, y, z \rbrace$, write $f \circ g$ as a set of ordered pairs and draw the arrwo diagram  of $f \circ g$
+
+### SOLUTION
+
+$$
+\begin{aligned}
+&f(g(x)) from\ X\ to\ Z\ is\\
+&f(g(1)) = f(b) = x\\
+&f(g(2)) = f(c) = z\\
+&f(g(3)) = f(a) = x\\
+\end{aligned}
+$$
+
+```mermaid
+flowchart LR
+  x1--g-->y2--f-->z2
+  x2--g-->y3--f-->z4
+  x3--g-->y1--f-->z2
+  subgraph X
+  x1((1))
+  x2((2))
+  x3((3))
+  end
+  subgraph Y
+  y1((a))
+  y2((b))
+  y3((c))
+  y4((d))
+  end
+  subgraph Z
+  z2((x))
+  z3((y))
+  z4((z))
+  z1((w))
   end
 ```
