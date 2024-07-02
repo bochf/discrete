@@ -452,4 +452,9 @@ $$\alpha=baab, \beta=caaba, \gamma=bbab$$
 The substrings $s$ of the string $aabaabb$ are:
 - null string  
 - $|s|=1$: $a, b, c$  
-- $|s|=2$: $aa, ab, ba, bb$  
+- $|s|=2$: $aa, ab, ba, bb$
+- $|s|=3$: $aab, aba, baa, abb$
+- $|s|=4$: $aaba, abaa, baab, aabb$
+- $|s|=5$: $aabaa, abaab, baabb$
+- $|s|=6$: $aabaab, abaabb$
+- self: $aabaabb$
