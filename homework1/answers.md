@@ -449,6 +449,7 @@ $$\alpha=baab, \beta=caaba, \gamma=bbab$$
 
 ### 13. Find all substrings of the string aabaabb.
 ### SOLUTION
-The substrings of the string $aabaabb$ are:
-- null string
-- $a, b, c$
+The substrings $s$ of the string $aabaabb$ are:
+- null string  
+- $|s|=1$: $a, b, c$  
+- $|s|=2$: $aa, ab, ba, bb$  
