@@ -106,7 +106,7 @@ Since the Basis Step and the Inductive Step have been verified, the Principle of
 
 ## **Set**
 
-### 4. Let the universe be the set $U = \lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 \rbrace $. Let $A = \lbrace 1, 4, 7, 10), B = \lbrace 1, 2, 3, 4, 5 \rbrace \ and \ C = \lbrace 2, 4, 6, 8 \rbrace $. List the elements of each set.
+### 4. Let the universe be the set $U = \lbrace 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 \rbrace$. Let $A = \lbrace 1, 4, 7, 10\rbrace, B = \lbrace 1, 2, 3, 4, 5 \rbrace \ and \ C = \lbrace 2, 4, 6, 8 \rbrace$. List the elements of each set.
 (a) $B \cap C$
 
 (b) $\bar{A}-B$
@@ -131,9 +131,9 @@ $$
 $$
 \begin{split}
 &A \cup B − (C − B) \\
-&= \lbrace 1, 4, 7, 10 \rbrace  \cap \lbrace 1, 2, 3, 4 \rbrace  - (\lbrace 2, 4, 6, 8 \rbrace  - \lbrace 1, 2, 3, 4 \rbrace ) \\
-&= \lbrace 1, 2, 3, 4, 6, 8 \rbrace  - \lbrace 6, 8 \rbrace \\
-&= \lbrace 1, 2, 3, 4 \rbrace \\
+&= \lbrace 1, 4, 7, 10 \rbrace  \cup \lbrace 1, 2, 3, 4, 5 \rbrace  - (\lbrace 2, 4, 6, 8 \rbrace  - \lbrace 1, 2, 3, 4, 5 \rbrace ) \\
+&= \lbrace 1, 2, 3, 4, 5, 7, 10 \rbrace  - \lbrace 6, 8 \rbrace \\
+&= \lbrace 1, 2, 3, 4, 5, 7, 10 \rbrace \\
 \end{split}
 $$
 
