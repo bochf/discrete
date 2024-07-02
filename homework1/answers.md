@@ -458,3 +458,17 @@ The substrings $s$ of the string $aabaabb$ are:
 - $|s|=5$: $aabaa, abaab, baabb$
 - $|s|=6$: $aabaab, abaabb$
 - self: $aabaabb$
+
+---
+
+## Relations
+### 14. Draw the digraph of the relation $R = \lbrace(1; 2); (2; 1); (3; 3); (1; 1); (2; 2) \rbrace$ on $X = \lbrace 1; 2; 3\rbrace$.
+### SOLUTION
+```mermaid
+stateDiagram
+1-->2
+2-->1
+3-->3
+1-->1
+2-->2
+```
