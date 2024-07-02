@@ -472,3 +472,25 @@ stateDiagram
 1-->1
 2-->2
 ```
+
+---
+
+### 15. Determine whether the relation
+
+$$(x, y) \in R\ if\ x \ge y$$
+
+defined of the set of positive integers is reflexive, symmetric, antisymmetric, transitive, and/or a partial
+order.
+
+### SOLUTION
+- R is reflexive, $\forall x \in Z^+,\ (x, x) \in R$
+- R is not symmetric, for example $(2, 1) \in R$ but $(1, 2) \not \in R$
+- R is antisymmetric, prove:  
+$\forall x, y \in Z^+$ if $(x,y) \in R$ and $(y, x) \in R$  
+then $x \ge y$ and $y \ge x$  
+therefore $x=y$  
+- R is transitive, prove:
+$\forall x, y, z \in Z^+$ if $(x, y) \in R, (y, z) \in R$  
+then $x \ge y$ and $y \ge z$  
+therefore $x \ge z$, $(x, z) \in R$  
+- R is partial order because R is reflexive, antisymmetric, and transitive.
