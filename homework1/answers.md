@@ -429,21 +429,21 @@ $$t_n=2n-1, \qquad n \ge 1$$
 
 $$\alpha=baab, \beta=caaba, \gamma=bbab$$
 
-(a) $\alpha\beta$
-(b) $\beta\alpha$
-(c) $\gamma\alpha$
-(d) $\beta\gamma$
-(e) $|\alpha\beta|$
-(f) $|\alpha\alpha|$
+(a) $\alpha\beta$  
+(b) $\beta\alpha$  
+(c) $\gamma\alpha$  
+(d) $\beta\gamma$  
+(e) $|\alpha\beta|$  
+(f) $|\alpha\alpha|$  
 
 ### SOLUTION
 
-(a) $\alpha\beta=baabcaaba$
-(b) $\beta\alpha=caababaab$
-(c) $\gamma\alpha=bbabbaab$
-(d) $\beta\gamma=caababbab$
-(e) $|\alpha\beta|=|baabcaaba|=9$
-(f) $|\alpha\alpha|=|baabbaab|=8$
+(a) $\alpha\beta=baabcaaba$  
+(b) $\beta\alpha=caababaab$  
+(c) $\gamma\alpha=bbabbaab$  
+(d) $\beta\gamma=caababbab$  
+(e) $|\alpha\beta|=|baabcaaba|=9$  
+(f) $|\alpha\alpha|=|baabbaab|=8$  
 
 ---
 
