@@ -422,3 +422,43 @@ $$t_n=2n-1, \qquad n \ge 1$$
 (h) $t$ is nondecreasing because $t$ is increasing
 
 (i) $t$ is not nonincreasing because $t$ is increasing
+
+---
+
+### 12. Compute the given quantity using the strings
+
+$$\alpha=baab, \beta=caaba, \gamma=bbab$$
+
+(a) $\alpha\beta$
+
+(b) $\beta\alpha$
+
+(c) $\gamma\alpha$
+
+(d) $\beta\gamma$
+
+(e) $|\alpha\beta|$
+
+(f) $|\alpha\alpha|$
+
+### SOLUTION
+
+(a) $\alpha\beta=baabcaaba$
+
+(b) $\beta\alpha=caababaab$
+
+(c) $\gamma\alpha=bbabbaab$
+
+(d) $\beta\gamma=caababbab$
+
+(e) $|\alpha\beta|=|baabcaaba|=9$
+
+(f) $|\alpha\alpha|=|baabbaab|=8$
+
+---
+
+### 13. Find all substrings of the string aabaabb.
+### SOLUTION
+The substrings of the string $aabaabb$ are:
+- null string
+- $a, b, c$
