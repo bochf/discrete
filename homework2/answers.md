@@ -15,7 +15,7 @@ List the elements of $R_2 \circ R_1$ and $R_1 \circ R_2$.
 ### 2. 
 Determine whether the given relation is an equivalence relation on $X= \lbrace 1, 2, 3, 4, 5 \rbrace$. If the relation is an equivalence relation, list the equivalence classes.
 
-$$R= \lbrace (x,y) \in X \times X | 3 divids (x-y) \rbrace$$
+$$R= \lbrace (x,y) \in X \times X | 3\ divids\ (x-y) \rbrace$$
 
 ---
 
