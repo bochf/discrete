@@ -49,8 +49,8 @@ The equivalence classes are
 
 $$
 \begin{aligned}
-[1]=[4]=\lbrace 1,4 \rbrace\\
-[2]=[3]=\lbrace 2,3 \rbrace
+&[1]=[4]=\lbrace 1,4 \rbrace\\
+&[2]=[3]=\lbrace 2,3 \rbrace
 \end{aligned}
 $$
 
