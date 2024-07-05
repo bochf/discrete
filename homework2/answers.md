@@ -48,8 +48,10 @@ $$\lbrace(1,1), (1,4), (4,1), (4,4), (2,2), (2,3), (3,2), (3,3) \rbrace$$
 The equivalence classes are
 
 $$
+\begin{aligned}
 [1]=[4]=\lbrace 1,4 \rbrace\\
 [2]=[3]=\lbrace 2,3 \rbrace
+\end{aligned}
 $$
 
 ---
@@ -155,7 +157,9 @@ A_1A_2=
     b&a&c
   \end{array}\\
   \begin{matrix}
-    1\\2\\3
+    1\\
+    2\\
+    3
   \end{matrix}
   &\begin{pmatrix}
     2&1&1\\
@@ -175,7 +179,9 @@ R_2 \circ R_1=
     b&a&c
   \end{array}\\
   \begin{matrix}
-    1\\2\\3
+    1\\
+    2\\
+    3
   \end{matrix}
   &\begin{pmatrix}
     1&1&1\\
