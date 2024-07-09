@@ -29,9 +29,9 @@ $$R= \lbrace (x,y) \in X \times X | 3\ divides\ (x-y) \rbrace$$
 ### SOLUTION
 $R$ is an equivalence relation  on $X$ because $R$ is reflexive, symmetric, and transitive.  
 **Proof**  
-- $\forall x \in X, x-x=0$, 3 divides 0, $\therefore (x, x) \in R, R$ is **relexive**
+- $\forall x \in X, x-x=0$, 3 divides 0, $\therefore (x, x) \in R, R$ is **reflexive**
 - $\forall x,y \in X$, if 3 divides $(x-y)$, then 3 divides $(y-x)$, $\therefore (y,x) \in R, R$ is **symmetric**
-- $\forall xRy$ and $yRz$, we have $x=y+3m, y=z+3n \Rightarrow x=z+3(m+n) | m,n \in Z$, $\therefore (x,z) \in R, R$ is **transive**
+- $\forall xRy$ and $yRz$, we have $x=y+3m, y=z+3n \Rightarrow x=z+3(m+n) | m,n \in Z$, $\therefore (x,z) \in R, R$ is **transitive**
 
 Equivalence classes are: $\lbrace 1, 4 \rbrace, \lbrace 2,5 \rbrace, \lbrace 3 \rbrace$
 
