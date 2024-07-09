@@ -13,11 +13,11 @@ List the elements of $R_2 \circ R_1$ and $R_1 \circ R_2$.
 
 ### SOLUTION
 $$
-R_2 \circ R_1 = \lbrace (1,1), (1,2), (2,1), (2,2), (3,1), (3,2), (4,2) \rbrace
+R_1 \circ R_2 = \lbrace (1,1), (1,2),(3,4), (4,1), (4,2) \rbrace
 $$
 
 $$
-R_1 \circ R_2 = \lbrace (1,1), (1,2),(3,4), (4,1), (4,2) \rbrace
+R_2 \circ R_1 = \lbrace (1,1), (1,2), (2,1), (2,2), (3,1), (3,2), (4,2) \rbrace
 $$
 
 ## Equivalence Relations

@@ -1,0 +1,3 @@
+- disjoint sets
+- pairwise disjoint family of sets
+- $\alef_0$
