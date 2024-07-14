@@ -159,17 +159,18 @@ $$
 
 $$
 \begin{aligned}
-a_1 &=2^1a_0\\
-a_2 &=2^2a_1=2^2 \cdot 2^1a_0=2^{2+1}a_0\\
-a_3 &=2^3a_2=2^3 \cdot 2^{2+1}a_0=2^{3+2+1}a_0\\
+a_0 &= 2^0\\
+a_1 &= 2^1a_0\\
+a_2 &= 2^2a_1=2^2 \cdot 2^1a_0=2^{2+1}a_0\\
+a_3 &= 2^3a_2=2^3 \cdot 2^{2+1}a_0=2^{3+2+1}a_0\\
 \cdots\\
-a_n &=2^{n+(n-1)+(n-2)+\cdots+1}a_0\\
-&=2^{\sum^n_1}a_0\\
-&=2^{\frac{n(n-1)}{2}}a_0
+a_n &= 2^{n+(n-1)+(n-2)+\cdots+1}a_0\\
+&= 2^{\sum^n_1}a_0\\
+&= 2^{\frac{n(n+1)}{2}}a_0
 \end{aligned}
 $$
 
-Since $a_0=1$, we obtain the explicit fomula $a_n=2^{\frac{n(n-1)}{2}}$
+Since $a_0=1$, we obtain the explicit fomula $a_n=2^{\frac{n(n+1)}{2}}$
 
 ---
 
