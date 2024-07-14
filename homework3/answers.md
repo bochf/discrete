@@ -47,15 +47,15 @@ Let $a_i$ denote the position of the $i$th available item. We must show that $\e
 
 $$a_1, a_2, \cdots, a_{55}\tag{1}$$  
 $$a_1+9, a_2+9, \cdots, a_{55}+9\tag{2}$$  
-The 110 number in (1) and (2) have possible values from 1 to 109. By the second form of the Pigeonhole Priciple, two of the numbers must coincide. We cannot have two of (1) or two of (2) identical; thus some number in (1) is equal to some number in (2). Therefore, $a_i-a_j=9$ for some $i$ and $j$, as desired.
+The 110 number in (1) and (2) have possible values from 1 to 109. By the second form of the Pigeonhole Principle, two of the numbers must coincide. We cannot have two of (1) or two of (2) identical; thus some number in (1) is equal to some number in (2). Therefore, $a_i-a_j=9$ for some $i$ and $j$, as desired.
 
 
 ---
 
-### 5. Professor Euclid is paid every other week on Friday. Show that in some nomth, she is paid three times.
+### 5. Professor Euclid is paid every other week on Friday. Show that in some month, she is paid three times.
 
 ### SOLUTION
-There are $365/7=52$ weeks a year, if she is paid every other week on Friday, there are at least $52/2=26$ payments a year. If every month has less than 3 payments, then she can't be paid more than 24 times a year. So she is paid 3 time in some month.
+There are $365/7=52$ weeks a year, if she is paid every other week on Friday, there are at least $52/2=26$ payments a year. If every month has less than 3 payments, she can't be paid more than 24 times a year. So she is paid 3 times in some months.
 
 ---
 
@@ -79,9 +79,12 @@ $$
 ### 7. Assume that a person invests $2000 at 14% interest compounded annually.
 Let $A_n$ represent the amount at the end of $n$ years.
 
-(a) Find a recurrence relation for the sequence $\lbrace A_n \rbrace ^{\infty}_{n=0}$  
-(b) Find an initial condition for the sequence $\lbrace A_n \rbrace ^{\infty}_{n=0}$  
-(c) Find $A_1, A_2,$ and $A_3$.  
+(a) Find a recurrence relation for the sequence $\lbrace A_n \rbrace ^{\infty}_{n=0}$
+
+(b) Find an initial condition for the sequence $\lbrace A_n \rbrace ^{\infty}_{n=0}$
+
+(c) Find $A_1, A_2,$ and $A_3$.
+
 (d) Find an explicit formula for $A_n$
 
 ### SOLUTION
@@ -89,7 +92,8 @@ Let $A_n$ represent the amount at the end of $n$ years.
 
 (b) $A_0 = 2000$
 
-(c)
+(c) 
+
 $$
 \begin{aligned}
 &A_1 = 2280\\
@@ -103,7 +107,7 @@ $$
 ---
 
 ### 8.
-Let $S_n$ denote the number of n-bit strings that do not contain the parttern 00.
+Let $S_n$ denote the number of n-bit strings that do not contain the pattern 00.
 
 (a) Find a recurrence relation and initial conditions for the sequence $\lbrace S_n \rbrace$. Justify your answer.  
 (b) Show that for all intergers $n \ge 1, S_n=f_{n+2}$, where $f$ denotes the Fibonacci sequence.
