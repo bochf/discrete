@@ -45,8 +45,8 @@ $$
 ### SOLUTION
 Let $a_i$ denote the position of the $i$th available item. We must show that $\exists\ i \ne j, a_i-9=a_j$. Consider the numbers
 
-$$a_1, a_2, \cdots, a_{55}\tag{1}$$
-$$a_1+9, a_2+9, \cdots, a_{55}+9\tag{2}$$
+$$a_1, a_2, \cdots, a_{55}\tag{1}$$  
+$$a_1+9, a_2+9, \cdots, a_{55}+9\tag{2}$$  
 The 110 number in (1) and (2) have possible values from 1 to 109. By the second form of the Pigeonhole Priciple, two of the numbers must coincide. We cannot have two of (1) or two of (2) identical; thus some number in (1) is equal to some number in (2). Therefore, $a_i-a_j=9$ for some $i$ and $j$, as desired.
 
 
