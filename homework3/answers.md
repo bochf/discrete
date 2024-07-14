@@ -115,9 +115,9 @@ Let $S_n$ denote the number of n-bit strings that do not contain the pattern 00.
 ### SOLUTION
 (a) The 1-bit strings that do not contain the pattern 00 are $\lbrace 0,1 \rbrace$, the 2-bit strings that do not contain the pattern 00 are $\lbrace 01, 10, 11 \rbrace$. For $n \ge 3$, the $n$-bit strings are formed by a $(n-1)$-bit string concatenate a "1" or "0".
 - If the string ends in "1", the preceding n-1 bits must be an $n-1$-bit string that does not contain "00". The number of such string is $S_{n-1}$.
-- If the string ends in "0", the preceding n-1 bits must be an string ends in "1". The number of such string is $S_{n-2}$.
+- If the string ends in "0", the preceding n-1 bits must be a string ending in "1". The number of such strings is $S_{n-2}$.
 
-From above analysis, we obtain the recurrence relation:
+From the above analysis, we obtain the recurrence relation:
 
 $$
 \begin{aligned}
@@ -146,7 +146,7 @@ It is the same as $S_n$ we get from (a)
 
 ## Solving Recurrence Relations
 
-### 9. Solve the given recurrence relation for the initial conditions geven.
+### 9. Solve the given recurrence relation for the initial conditions given.
 
 $$
 \begin{aligned}
@@ -159,14 +159,17 @@ $$
 
 $$
 \begin{aligned}
-&a_1=2^1a_0\\
-&a_2=2^2a_1=2^2*2^1a_0=2^{2+1}a_0\\
-&a_3=2^3a_2=2^3*2^{2+1}a_0=2^{3+2+1}a_0\\
-&\cdots\\
-&a_n=2^{n+(n-1)+(n-2)+\cdots+1}a_0=2^{\sum^{n}_1}a_0
+a_1 &=2^1a_0\\
+a_2 &=2^2a_1=2^2 \cdot 2^1a_0=2^{2+1}a_0\\
+a_3 &=2^3a_2=2^3 \cdot 2^{2+1}a_0=2^{3+2+1}a_0\\
+\cdots\\
+a_n &=2^{n+(n-1)+(n-2)+\cdots+1}a_0\\
+&=2^{\sum^n_1}a_0\\
+&=2^{\frac{n(n-1)}{2}}a_0
 \end{aligned}
-$$  
-Since $a_0=1$, we obtain the explicit fomula $a_n=2^{\sum^{n}_1}$
+$$
+
+Since $a_0=1$, we obtain the explicit fomula $a_n=2^{\frac{n(n-1)}{2}}$
 
 ---
 
