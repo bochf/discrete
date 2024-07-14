@@ -55,15 +55,24 @@ The 110 number in (1) and (2) have possible values from 1 to 109. By the second 
 ### 5. Professor Euclid is paid every other week on Friday. Show that in some nomth, she is paid three times.
 
 ### SOLUTION
+There are $365/7=52$ weeks a year, if she is paid every other week on Friday, there are at least $52/2=26$ payments a year. If every month has less than 3 payments, then she can't be paid more than 24 times a year. So she is paid 3 time in some month.
 
 ---
 
 ## Recurrence Relations
 
-### 6. Fina a recurrence relation and initial conditions that begins with the given terms.
+### 6. Find a recurrence relation and initial conditions that begins with the given terms.
 $$1,1,2,4,16,128,4096$$
 
 ### SOLUTION
+
+$$
+\begin{aligned}
+&a_0=0\\
+&a_1=0\\
+&a_n=2a_{n-1}a_{n-2}
+\end{aligned}
+$$
 
 ---
 
@@ -76,6 +85,20 @@ Let $A_n$ represent the amount at the end of $n$ years.
 (d) Find an explicit formula for $A_n$
 
 ### SOLUTION
+(a) $A_n = A_{n-1} + 0.14 \times A_{n-1}$
+
+(b) $A_0 = 2000$
+
+(c)
+$$
+\begin{aligned}
+&A_1 = 2280\\
+&A_2 = 2599.20\\
+&A_3 = 2963.088
+\end{aligned}
+$$
+
+(d) $A_n = (1.14)^n(2000)$
 
 ---
 
