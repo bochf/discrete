@@ -139,6 +139,7 @@ F_n &= f_{n+2} = f_{n+1} + f_{n} \qquad (if\ n \ge 3)\\
 &= F_{n-1} + F_{n-2}
 \end{aligned}
 $$
+
 It is the same as $S_n$ we get from (a)
 
 ---
