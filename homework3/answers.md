@@ -113,6 +113,33 @@ Let $S_n$ denote the number of n-bit strings that do not contain the pattern 00.
 (b) Show that for all intergers $n \ge 1, S_n=f_{n+2}$, where $f$ denotes the Fibonacci sequence.
 
 ### SOLUTION
+(a) The 1-bit strings that do not contain the pattern 00 are $\lbrace 0,1 \rbrace$, the 2-bit strings that do not contain the pattern 00 are $\lbrace 01, 10, 11 \rbrace$. For $n \ge 3$, the $n$-bit strings are formed by a $(n-1)$-bit string concatenate a "1" or "0".
+- If the string ends in "1", the preceding n-1 bits must be an $n-1$-bit string that does not contain "00". The number of such string is $S_{n-1}$.
+- If the string ends in "0", the preceding n-1 bits must be an string ends in "1". The number of such string is $S_{n-2}$.
+
+From above analysis, we obtain the recurrence relation:
+
+$$
+\begin{aligned}
+S_1 &= 2\\
+S_2 &= 3\\
+S_n &= S_{n-1} + S_{n-2}\qquad if\ n \ge 3
+\end{aligned}
+$$
+
+(b)
+The Fibonacci sequence is $f_n = f_{n-1} + f_{n-2},\ if\ n \ge 3,\qquad\ f_1 = 1,\ f_2 = 1$  
+Let $F_n = f_{n+2},\ n \ge 1$, then
+
+$$
+\begin{aligned}
+F_1 &= f_3 = 2\\
+F_2 &= f_4 = 3\\
+F_n &= f_{n+2} = f_{n+1} + f_{n} \qquad (if\ n \ge 3)\\
+&= F_{n-1} + F_{n-2}
+\end{aligned}
+$$
+It is the same as $S_n$ we get from (a)
 
 ---
 
