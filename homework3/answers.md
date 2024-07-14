@@ -157,6 +157,17 @@ $$
 
 ### SOLUTION
 
+$$
+\begin{aligned}
+&a_1=2^1a_0\\
+&a_2=2^2a_1=2^2*2^1a_0=2^{2+1}a_0\\
+&a_3=2^3a_2=2^3*2^{2+1}a_0=2^{3+2+1}a_0\\
+&\cdots\\
+&a_n=2^{n+(n-1)+(n-2)+\cdots+1}a_0=2^{\sum^{n}_1}a_0
+\end{aligned}
+$$  
+Since $a_0=1$, we obtain the explicit fomula $a_n=2^{\sum^{n}_1}$
+
 ---
 
 ### 10. Solve the given recurrence relation for the initial conditions given.
@@ -170,6 +181,20 @@ $$
 $$
 
 ### SOLUTION
+Solve the quadratic equation $t^2-2t-8=0$, we get  $t_1=-2, \ t_2=4$  
+The sequence $a$ is of the form $a_n = b*(-2)^n+d*4^n$  
+To meet the initial conditions, we must have
+
+$$
+\begin{aligned}
+4&=b+d\\
+10&=-2b+4d
+\end{aligned}
+$$
+
+Solving for b and d, we find that b=1 and d=3. Thus
+
+$$a_n=(-2)^n+3\cdot 4^n$$
 
 ---
 
@@ -184,3 +209,17 @@ $$
 $$
 
 ### SOLUTION
+Solve the quadratic equation $t^2-6t+9=0$, we get  $t=3$  
+Since there is only one root, the sequence $a$ is of the form $a_n=bt^n+dnt^n$  
+To meet the initial conditions, we must have
+
+$$
+\begin{aligned}
+1&=b\\
+1&=b \cdot 3+d \cdot 3
+\end{aligned}
+$$
+
+Solving for b and d, we find that $b=1$ and $d=-\frac{2}{3}$. Thus
+
+$$a_n=3^n-\frac{2n}{3} \cdot 3^n$$
