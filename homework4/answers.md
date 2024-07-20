@@ -96,11 +96,13 @@ iv. Path (b,c,d,a,b,e,d,c,b)
 (a) The degree of each vertex is:
 
 $$
+\begin{aligned}
 \delta(v_1)=4\\
 \delta(v_2)=4\\
 \delta(v_3)=4\\
 \delta(v_4)=4\\
 \delta(v_5)=4\\
+\end{aligned}
 $$
 
 Every vertex has even degree, it has an Euler cycle
