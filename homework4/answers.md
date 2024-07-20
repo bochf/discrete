@@ -102,6 +102,7 @@ $$
 \delta(v_4)=4\\
 \delta(v_5)=4\\
 $$
+
 Every vertex has even degree, it has an Euler cycle
 
 (b)
