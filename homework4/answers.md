@@ -45,9 +45,9 @@ $b$ is not bipartite, because the loop $e_5$ incident on the single vertex $v_1$
 
 ![8.2.2](./8.2.2.png)
 
-i. (a,d,c,d,e)
-ii. (e,d,c,b).
-iv. (b,c,d,a,b,e,d,c,b).
+i. (a,d,c,d,e)  
+ii. (e,d,c,b)  
+iv. (b,c,d,a,b,e,d,c,b)  
 
 ### SOLUTION
 i. Path (a,d,c,d,e) 
