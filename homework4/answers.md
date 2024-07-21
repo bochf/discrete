@@ -252,7 +252,11 @@ $$
 
 $$
 \begin{matrix}
-  a\\b\\c\\d\\e\\
+  a\\
+  b\\
+  c\\
+  d\\
+  e\\
 \end{matrix}
 \begin{pmatrix}
   0&1&0&0&1&1\\
@@ -281,13 +285,15 @@ $$
 (a) Map each vertex in $G_1$ to $G_2$ in the relation $\lbrace (a,3), (b,4), (c,1), (d,5), (e,2) \rbrace$, we have the one-to-one relation of edges in $G_1$ and $G_2$, 
 
 $$
+\begin{aligned}
 (a,b)=(3,4)\\
 (a,d)=(3,5)\\
 (b,c)=(4,1)\\
 (b,d)=(4,5)\\
 (b,e)=(4,2)\\
 (c,d)=(1,5)\\
-(c,e)=(1,2)
+(c,e)=(1,2)\\
+\end{aligned}
 $$
 
 ---
