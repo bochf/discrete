@@ -136,7 +136,7 @@ There are 16 vertices, a Hamiltanian cycle must has 16 edges. Suppose that we co
 ![8.3.17](./8.3.17.png)
 
 ### SOLUTION
-(a, b, c, d, e, a), total length is $3+4+7+2+4=20$
+(a, b, c, e, d, a), total length is $3+4+7+2+4=20$
 
 ---
 
