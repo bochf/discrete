@@ -15,7 +15,7 @@
 
 ### SOLUTION
 
-Let us try to find $K_{3,3}$ in the graph. We first note that the vertices a, c, and g each have degree 4. In $K_{3,3}$ each vertex has degree 3, so let us eliminate the edges (a, c) and (d, g) so that all vertices have degree less or equale to 3. We note that edges (a, b) and (b, d) are in series, edges (c, b) and (b, d) are in series too. Deleting the vertex b will obtain a $K_{3,3}$ bipartite graph by series reduction.
+Let us try to find $K_{3,3}$ in the graph. We first note that the vertices a, c, and g each have degree 4. In $K_{3,3}$ each vertex has degree 3, so let us eliminate the edges (a, c) and (d, g) so that all vertices have a degree less or equal to 3. We note that edges (a, b) and (b, d) are in series, and edges (c, b) and (b, d) are in series too. Deleting the vertex b will obtain a $K_{3,3}$ bipartite graph by series reduction.
 Therefore, the graph is not a planar graph.
 
 
@@ -26,8 +26,8 @@ Therefore, the graph is not a planar graph.
 ### 3. Show that in any simple, connected, planar graph, $e \le 3v-6$.
 
 ### SOLUTION
-Obviously, a graph with only 1 vertex, 0 edge does not satisfy the formula.
-And a graph with 2 vertices, 2 edges does not satisfy the formula either.
+A graph with only 1 vertex, and 0 edge does not satisfy the formula.
+And a graph with 2 vertices, and 2 edges does not satisfy the formula either.
 
 ## Introduction to Trees
 ### 4. Give the Huffman code below
@@ -67,14 +67,14 @@ Repeatedly replacing the smallest 2 frequencies with the sum:
 
 $$
 \begin{aligned}
-  5,6,6,11,20 &\rarr 5+6,6,11,20\\
-  6,11,11,20 &\rarr 6+11,11,20\\
-  11,17,20 &\rarr 11+17,20\\
+  5,6,6,11,20 &\rightarrow 5+6,6,11,20\\
+  6,11,11,20 &\rightarrow 6+11,11,20\\
+  11,17,20 &\rightarrow 11+17,20\\
   20,28
 \end{aligned}
 $$
 
-Construct the treew working backward.
+Construct the tree working backward.
 
 ![9.1.24](./9.1.24.png)
 
@@ -84,7 +84,7 @@ Construct the treew working backward.
 
 ### SOLUTION
 A connected tree is a graph with n vertices and n-1 edges, there is no cycle in a tree, so the face of a tree is always 1.  
-Thus the tree satisfies the Euler's fomula $f=e-v+2$ where $f=1,\ e=v-1$
+Thus the tree satisfies Euler's formula $f=e-v+2$ where $f=1,\ e=v-1$
 
 ## Terminology and Characterization of Tree
 ### 7.
@@ -98,21 +98,21 @@ Thus the tree satisfies the Euler's fomula $f=e-v+2$ where $f=1,\ e=v-1$
 (e) Find the siblings of f and of h.
 
 ### SOLUTION
-(a) The children of d are h and i, the child of e is j.  
-(b) The ancestors of c are a and b, the ancestors of j are a, b, c, and e.  
+(a) The children of d are h and i, and the child of e is j.  
+(b) The ancestors of c are a and b, and the ancestors of j are a, b, c, and e.  
 (c) The descendants of c are e, f, g, and j, the descendant of e is j.  
 (d) The terminal vertices are f, g, h, i, and j.  
-(e) The siblings of f are e and g, the sibling of h is i.
+(e) The siblings of f are e and g, and the sibling of h is i.
 
 ---
 
-### 8. draw a graph having the given properties or explain why no such graph exists.
+### 8. Draw a graph having the given properties or explain why no such graph exists.
 (a) Tree; all vertices of degree 2  
 (b) Acyclic; four edges, six vertices
 
 ### SOLUTION
 
-(a) A tree with all vertices of degree 2 does not exists because all the terminal vertices of a tree has degree 1.  
+(a) A tree with all vertices of degree 2 does not exist because all the terminal vertices of a tree have degree 1.  
 (b)
 
 ![9.2.24](./9.2.24.png)
