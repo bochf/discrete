@@ -49,7 +49,7 @@ From the given Huffman code, we get the table
 |   P    | 0110  |
 |   S    | 11    |
 
-(a) $01111001001110=DEANL$  
+(a) $01111001001110=DEAL$  
 (b) $LEADEN=0111000100111100010$
 
 ---
